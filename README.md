@@ -58,13 +58,14 @@ Recuerda lo que aprendiste en año pasado: una función debe tener sólo una res
 ## Práctica 2
 Haz un formulario para dar de alta un nuevo producto. Al enviarlo simplemente se mostrará por consola (igual que al pulsar en '_Mostrar_'). Los campos que tendrá son:
 - **name**: obligatorio, entre 10 y 30 caracteres
-- **original_price**: obligatorio y numérico
-- **discount_price**: opcional, numérico
+- **original_price**: obligatorio y numérico positivo, con 2 decimales como máximo
+- **discount_price**: opcional, numérico positivo, con 2 decimales como máximo
 - **stars**: opcional, numérico entre 1 y 5
 - **photo**: opcional, fichero con extensión .png, .jpg, .jpeg o .webp
-- **fuel**: obligatorio, a seleccionar una opción entre los tipos de combustible existentes
-- **manual_gear**: booleano que indica si el cambio de marchas es o no manual
+- **fuel**: obligatorio, a seleccionar una opción entre los tipos de combustible existentes (deberá ser un SELECT)
+- **manual_gear**: booleano que indica si el cambio de marchas es o no manual (deberá ser un RADIOBUTTON)
 - **km**: obligatorio y numérico
+- **Acepto**: checkbox obligatorio donde el usuario marca que acepta que guardemos sus datos, nuestra política de privacidad, ...
 
 No se puede enviar un formulario incorrrecto.
 
