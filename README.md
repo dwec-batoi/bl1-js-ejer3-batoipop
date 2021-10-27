@@ -63,7 +63,7 @@ Haz un formulario para dar de alta un nuevo producto. Al enviarlo simplemente se
 - **stars**: opcional, numérico entre 1 y 5
 - **photo**: opcional, fichero con extensión .png, .jpg, .jpeg o .webp
 - **fuel**: obligatorio, a seleccionar una opción entre los tipos de combustible existentes (deberá ser un SELECT)
-- **manual_gear**: booleano que indica si el cambio de marchas es o no manual (deberá ser un RADIOBUTTON)
+- **manual_gear**: obligatorio, booleano que indica si el cambio de marchas es o no manual (deberá ser un RADIOBUTTON)
 - **km**: obligatorio y numérico
 - **Acepto**: checkbox obligatorio donde el usuario marca que acepta que guardemos sus datos, nuestra política de privacidad, ...
 
